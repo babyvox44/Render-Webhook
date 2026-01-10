@@ -1,5 +1,5 @@
 """
-零配置 Webhook 交易服務器
+零配置CCXT-Webhook交易服務器
 ✅ 新策略只需改 Pine Script,服務器完全不動
 ✅ 自動識別交易所(Binance/OKX/Bybit/Gate/Bitget/KuCoin)
 ✅ 支援無限個策略同時運行
@@ -736,3 +736,4 @@ if __name__ == '__main__':
         log(f" {'✅' if ex else '❌'} {ex_id.upper()}")
    
     app.run(host='0.0.0.0', port=port)
+
